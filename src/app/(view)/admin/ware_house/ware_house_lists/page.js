@@ -224,7 +224,7 @@ const WareHouseLists = ({ searchParams }) => {
                         <div className="body-content bg-light">
                             <div className="border-primary shadow-sm border-0">
                                 <div className="card-header py-1 custom-card-header clearfix bg-gradient-primary text-white">
-                                    <h5 className="card-title font-weight-bold mb-0 card-header-color float-left mt-1">Ware House Search</h5>
+                                    <h5 className="card-title font-weight-bold mb-0 card-header-color float-left mt-1">Supplier Search</h5>
                                 </div>
                                 <div className="card-body">
                                     <form >
@@ -275,9 +275,9 @@ const WareHouseLists = ({ searchParams }) => {
                         <div className="body-content bg-light">
                             <div className="border-primary shadow-sm border-0">
                                 <div className="card-header py-1 custom-card-header clearfix bg-gradient-primary text-white">
-                                    <h5 className="card-title font-weight-bold mb-0 card-header-color float-left mt-1">List Ware House</h5>
+                                    <h5 className="card-title font-weight-bold mb-0 card-header-color float-left mt-1">List Supplier</h5>
                                     <div className="card-title font-weight-bold mb-0 card-header-color float-right">
-                                        <Link href={`/Admin/ware_house/ware_house_create?page_group`} className="btn btn-sm btn-info">Ware House Create</Link>
+                                        <Link href={`/Admin/ware_house/ware_house_create?page_group`} className="btn btn-sm btn-info">Supplier Create</Link>
                                     </div>
                                 </div>
                                 {loading ? (

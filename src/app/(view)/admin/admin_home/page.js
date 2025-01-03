@@ -74,7 +74,7 @@ function AdminHome() {
                   </div>
                   <div className="col-8 float-right p-0 text-end">
                     <h2 className="card-title text-white mb-0 text-right ">0</h2>
-                    <h6 className="card-title text-white m-0 text-right">Total Available SMS</h6>
+                    <h6 className="card-title text-white m-0 text-right">Total Available Product</h6>
                   </div>
                 </div>
               </div>

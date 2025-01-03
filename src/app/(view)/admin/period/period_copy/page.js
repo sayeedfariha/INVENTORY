@@ -1,6 +1,6 @@
 
 'use client' 
- //ismile
+ 
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import Link from 'next/link';

@@ -134,10 +134,10 @@ const SettingsColor = () => {
 
             <div class=" border-primary shadow-sm border-0">
                 <div class=" card-header py-1 custom-card-header clearfix bg-gradient-primary text-white">
-                    <h5 class="card-title font-weight-bold mb-0 card-header-color float-left mt-1">Color Settings</h5>
+                    <h5 class="card-title font-weight-bold mb-0 card-header-color float-left mt-1">Purchase Settings</h5>
                     <div class="card-title font-weight-bold mb-0 card-header-color float-right">
 
-                        <Link href={`/Admin/color/color_create?page_group=${page_group}`} class="btn btn-sm btn-info">Back To Create Color</Link>
+                        <Link href={`/Admin/color/color_create?page_group=${page_group}`} class="btn btn-sm btn-info">Back To Create Purchase</Link>
                     </div>
                 </div>
                 <div class="card-body">

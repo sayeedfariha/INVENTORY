@@ -154,15 +154,15 @@ const WareHouseUpdate = ({id}) => {
                     <div className='card'>
                         <div class=" border-primary shadow-sm border-0">
                             <div class="card-header py-1  custom-card-header clearfix bg-gradient-primary text-white">
-                                <h5 class="card-title font-weight-bold mb-0 card-header-color float-left mt-1">Edit Ware House</h5>
+                                <h5 class="card-title font-weight-bold mb-0 card-header-color float-left mt-1">Edit Supplier</h5>
                                 <div class="card-title font-weight-bold mb-0 card-header-color float-right">
-                                    <Link href={`/Admin/ware_house/ware_house_all?page_group=${page_group}`} class="btn btn-sm btn-info">Back To Ware House List</Link></div>
+                                    <Link href={`/Admin/ware_house/ware_house_all?page_group=${page_group}`} class="btn btn-sm btn-info">Back To Supplier</Link></div>
                             </div>
                             <form action="" onSubmit={asset_type_create}>
 
                                 <div class="card-body">
                                     <div class="form-group row">
-                                        <label class="col-form-label col-md-3"><strong>Ware House  Person Name<small><sup><small><i class="text-danger fas fa-star"></i></small></sup></small>:</strong></label>
+                                        <label class="col-form-label col-md-3"><strong>Supplier Name<small><sup><small><i class="text-danger fas fa-star"></i></small></sup></small>:</strong></label>
                                         <div class="col-md-6">
                                             <input type="text" name="name" value={assetTypeName.name} onChange={brand_input_change}
                                                 class="form-control form-control-sm  required "

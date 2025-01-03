@@ -980,7 +980,7 @@ const CreateExcelColor = () => {
                                     <div>
                                         <div className="card-header custom-card-header py-1 clearfix bg-gradient-primary text-white">
                                             <div className="card-title card-header-color font-weight-bold mb-0 float-left mt-1">
-                                                <strong>Color</strong>
+                                                <strong>Purchase</strong>
                                             </div>
                                             <div className="card-title card-header-color font-weight-bold mb-0 float-right">
                                                 <div className="input-group">

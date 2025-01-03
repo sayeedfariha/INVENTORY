@@ -679,7 +679,7 @@ const EditProduct = ({ id }) => {
                                                 <div className={`brand-item d-lg-flex d-md-flex col-lg-12  justify-content-between`}>
 
                                                     <div className='col-lg-3 border'>
-                                                        <label className='font-weight-bold'>Color Name<small><sup><small><i class="text-danger fas fa-star"></i></small></sup></small></label>
+                                                        <label className='font-weight-bold'>Purchased product Name<small><sup><small><i class="text-danger fas fa-star"></i></small></sup></small></label>
                                                         <select
                                                             required=""
                                                             name="color_id"
